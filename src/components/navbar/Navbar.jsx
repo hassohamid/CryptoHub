@@ -27,7 +27,10 @@ const Navbar = () => {
     <div className="navbar">
       <div className="flex items-center">
         <img src={logo} alt="Solana" className="logo" />
-        <h1> CryptoHub </h1>
+        <h1>
+          {" "}
+          Crypto<span className="hub">Hub</span>{" "}
+        </h1>
       </div>
       <ul>
         <li>Home</li>
@@ -42,7 +45,10 @@ const Navbar = () => {
           <option value="sek">SEK</option>
         </select>
         <button>
-          Sign up <FaArrowUpRightDots color="black" size={18} />
+          Sign up{" "}
+          <span>
+            <FaArrowUpRightDots color="black" size={17} />
+          </span>
         </button>
       </div>
     </div>

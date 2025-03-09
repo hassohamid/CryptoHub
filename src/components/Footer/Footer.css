@@ -1,0 +1,84 @@
+.modern-footer {
+  background: rgba(25, 11, 51, 0.8);
+  padding: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: "Arial", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+.modern-footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.modern-footer .action {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.modern-footer .action:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.modern-footer .brand {
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.modern-footer .hub {
+  color: #9d4edd;
+}
+
+.modern-footer .powered {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.modern-footer .solana {
+  color: #14f195; /* Solana's brand color */
+  font-weight: bold;
+}
+
+.modern-footer svg {
+  font-size: 16px;
+}
+
+.modern-footer .action-group {
+  display: flex;
+  gap: 5px;
+}
+/* Responsive design */
+@media (max-width: 768px) {
+  .modern-footer p {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .modern-footer .action-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .modern-footer .brand {
+    font-size: 18px;
+  }
+
+  .modern-footer .powered {
+    font-size: 12px;
+  }
+}

@@ -38,7 +38,7 @@ const Home = () => {
             <p>{item.market_cap_rank}</p>
             <div>
               <img src={item.image} />
-              <p> {item.name + "-" + item.symbol}</p>
+              <p> {item.name}</p>
             </div>
             <p>
               {currency.symbol} {item.current_price.toLocaleString()}
